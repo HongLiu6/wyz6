@@ -1,0 +1,11 @@
+a=input("请输入第一条边")
+b=input("请输入第二条边")
+c=input("请输入第三条边")
+a=eval(a)
+b=eval(b)
+c=eval(c)
+d=(a+b+c)/2
+s=((d)*(d-a)*(d-b)*(d-c))**0.5
+s=round(s,2)
+t="由{}、{}、{}构成的三角形面积为:{}".format(a,b,c,s)
+print(t)
